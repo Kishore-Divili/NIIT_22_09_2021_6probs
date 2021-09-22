@@ -20,6 +20,8 @@ public class HourlyWageCalculator4 {
     }
     static double calSalary(double pay,int hr)
     {
+        if(pay!=12)
+            return 0;
         if(hr>60)
             hr=60;
 
